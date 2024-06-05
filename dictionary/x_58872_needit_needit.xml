@@ -4,6 +4,7 @@
         <element label="New Field 2" max_length="40" name="new_field_2" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="when needed" mandatory="true" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
         <element label="New Integer" max_length="40" name="u_integer_1" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_reference_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
@@ -26,6 +27,7 @@
                 <element inactive_on_update="false" label="Legal 2" sequence="5" value="legal 2"/>
                 <element inactive_on_update="false" label="Departement 1" sequence="6" value="departement 1"/>
                 <element inactive_on_update="false" label="Departement 2" sequence="7" value="departement 2"/>
+                <element inactive_on_update="false" label="Other" sequence="8" value="other"/>
             </choice>
         </element>
     </element>
